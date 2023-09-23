@@ -22,7 +22,7 @@ const Rules = () => {
         <img
           src={images.purpleLens2}
           alt="purple lens"
-          className="absolute w-[400px] h-[400px] rounded-full blur-lg mix-blend-hard-light -top-32 -right-20"
+          className="absolute w-[400px] h-[400px] rounded-full blur-xl mix-blend-hard-light -top-32 -right-20"
         />
         <img
           src={images.star}

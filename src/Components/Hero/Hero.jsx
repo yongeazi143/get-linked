@@ -26,7 +26,7 @@ const Hero = () => (
     <section className="relative flex flex-col items-center lg:items-start justify-center  gap-10 py-5 lg:flex-row">
       <div className="flex flex-col items-center justify-center z-10  gap-1 lg:items-start lg:ml-20 lg:gap-3">
         <div className="mt-5 text-center  relative pt-5 lg:pt-14 lg:mt-0">
-          <h1 className="text-3xl lg:text-[80px]  font-bold leading-normal">
+          <h1 className="text-3xl lg:text-6xl  font-bold leading-normal">
             getlinked Tech
           </h1>
           <img
@@ -36,7 +36,7 @@ const Hero = () => (
           />
         </div>
         <div className="flex items-center justify-center lg:mb-3">
-          <h1 className="text-3xl lg:text-[80px] font-bold ">
+          <h1 className="text-3xl lg:text-6xl font-bold ">
             Hackathon <span className="text-primary">1.0</span>
           </h1>
           <img src={images.chain} alt="chain" className="lg:w-[60px]" />
