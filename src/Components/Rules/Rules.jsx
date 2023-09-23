@@ -2,7 +2,7 @@ import images from "../../images";
 
 const Rules = () => {
   return (
-    <section className="overflow-hidden mx-auto w-full flex flex-col-reverse items-center justify-between relative">
+    <section className=" mx-auto w-full flex flex-col-reverse items-center justify-between relative">
       <div className="text-center p-8 relative">
         <h2 className="font-sans lg:text-3xl font-bold z-10">
           Rules and
@@ -22,7 +22,7 @@ const Rules = () => {
         <img
           src={images.purpleLens2}
           alt="purple lens"
-          className="absolute w-[400px] h-[400px] rounded-full blur-xl mix-blend-hard-light -top-32 -right-20"
+          className="absolute w-[250px] h-[250px] rounded-full blur-xl mix-blend-hard-light top-0 right-4"
         />
         <img
           src={images.star}
@@ -46,7 +46,7 @@ const Rules = () => {
       <img
         src={images.purpleLens1}
         alt="purple lens"
-        className="absolute w-[350px] h-[350px] rounded-full blur-lg mix-blend-hard-light -top-12 -left-20"
+        className="absolute  w-[350px] h-[350px]  mix-blend-hard-light blur-lg rounded-full -top-12 -left-20"
       />
     </section>
   );

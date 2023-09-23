@@ -23,30 +23,30 @@ const Hero = () => (
         />
       </svg>
     </div>
-    <section className="relative flex flex-col items-center lg:items-start justify-center  gap-10 py-5 lg:flex-row">
-      <div className="flex flex-col items-center justify-center z-10  gap-1 lg:items-start lg:ml-20 lg:gap-3">
-        <div className="mt-5 text-center  relative pt-5 lg:pt-14 lg:mt-0">
-          <h1 className="text-3xl lg:text-6xl  font-bold leading-normal">
-            getlinked Tech
-          </h1>
-          <img
-            src={images.creative}
-            alt="creative"
-            className="absolute w-5 top-0 right-4 lg:w-[40px] lg:right-6 lg:top-8"
-          />
+    <section className="relative flex flex-col items-center lg:items-start justify-center lg:flex-row">
+      <div className="flex flex-col items-center justify-center z-10  gap-1 lg:items-start lg:ml-20 lg:gap-3 lg:w-1/2">
+        <div className=" text-center lg:text-left  text-3xl lg:text-6xl font-bold">
+          <div className="mt-5  pt-5 lg:pt-14 lg:mt-0 relative">
+            <p className="leading-normal whitespace-nowrap">getlinked Tech</p>
+            <img
+              src={images.creative}
+              alt="creative"
+              className="absolute w-5 top-1 right-9 lg:w-[40px] lg:right-24 lg:top-5"
+            />
+          </div>
+          <div className="flex items-center justify-center lg:mb-3">
+            <p className="whitespace-nowrap">
+              Hackathon <span className="text-primary">1.0</span>
+            </p>
+            <img src={images.chain} alt="chain" className="lg:w-[70px]" />
+            <img src={images.spack} alt="spack" className="lg:w-[60px]" />
+          </div>
         </div>
-        <div className="flex items-center justify-center lg:mb-3">
-          <h1 className="text-3xl lg:text-6xl font-bold ">
-            Hackathon <span className="text-primary">1.0</span>
-          </h1>
-          <img src={images.chain} alt="chain" className="lg:w-[60px]" />
-          <img src={images.spack} alt="spack" className="lg:w-[60px]" />
-        </div>
-        <p className="text-center font-serif text-sm px-10 leading-6 lg:px-0 lg:max-w-[370px] lg:text-left">
+        <p className="text-center font-serif text-sm px-10 leading-6 lg:text-xl lg:px-0 lg:max-w-lg lg:text-left">
           Participate in getlinked tech Hackathon 2023 stand a chance to win a
           Big prize
         </p>
-        <a className=" btn-color py-4 px-10 rounded-md my-7" href="#">
+        <a className=" btn-color py-4 px-10 rounded-md my-5" href="#">
           Register
         </a>
         <p className="font-unica text-center text-5xl">
@@ -69,7 +69,7 @@ const Hero = () => (
         <img
           src={images.hero}
           alt="sparkle light"
-          className="absolute top-0 w-96 mix-blend-hard-light lg:w-[500px] lg:-left-20"
+          className="absolute top-0 w-96 mix-blend-hard-light lg:w-[750px] lg:right-0"
         />
       </div>
       <img
