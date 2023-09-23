@@ -2,8 +2,8 @@ import images from "../../images";
 
 const Rules = () => {
   return (
-    <section className=" mx-auto w-full flex flex-col-reverse items-center justify-between relative">
-      <div className="text-center p-8 relative">
+    <section className=" mx-auto w-full flex flex-col-reverse items-center justify-between relative lg:flex-row lg:justify-around lg:p-16">
+      <div className="text-center p-8 my-auto  lg:w-1/2  lg:text-left z-10">
         <h2 className="font-sans lg:text-3xl font-bold z-10">
           Rules and
           <br />
@@ -19,24 +19,13 @@ const Rules = () => {
           pushing the boundaries of technology, and creating solutions that can
           change the world, that's what we're all about!
         </p>
-        <img
-          src={images.purpleLens2}
-          alt="purple lens"
-          className="absolute w-[250px] h-[250px] rounded-full blur-xl mix-blend-hard-light top-0 right-4"
-        />
-        <img
-          src={images.star}
-          alt="star"
-          className="absolute top-24 w-3 right-5"
-        />
-        <img
-          src={images.star}
-          alt="star"
-          className="absolute bottom-4 w-3 left-20"
-        />
       </div>
-      <div className="w-full z-10 relative">
-        <img src={images.guidelines} alt="woman sitting down" className="" />
+      <div className="w-full lg:w-1/2 z-10 relative">
+        <img
+          src={images.guidelines}
+          alt="woman sitting down"
+          className="w-[664px] lg:mx-auto"
+        />
         <img
           src={images.star}
           alt="star"
@@ -46,7 +35,22 @@ const Rules = () => {
       <img
         src={images.purpleLens1}
         alt="purple lens"
-        className="absolute  w-[350px] h-[350px]  mix-blend-hard-light blur-lg rounded-full -top-12 -left-20"
+        className="absolute  w-[350px] h-[350px]  mix-blend-hard-light blur-lg rounded-full -top-12 -left-20 lg:w-[500px] lg:h-[500px]"
+      />
+      <img
+        src={images.purpleLens2}
+        alt="purple lens"
+        className="absolute w-[250px] h-[250px]  blur-xl mix-blend-hard-light bottom-36 lg:bottom-0 right-4 lg:w-[500px] lg:h-[500px]"
+      />
+      <img
+        src={images.star}
+        alt="star"
+        className="absolute bottom-60 w-3 right-5"
+      />
+      <img
+        src={images.star}
+        alt="star"
+        className="absolute bottom-4 w-3 left-20"
       />
     </section>
   );
