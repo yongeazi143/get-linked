@@ -39,8 +39,8 @@ const Hero = () => (
           <h1 className="text-3xl lg:text-[80px] font-bold ">
             Hackathon <span className="text-primary">1.0</span>
           </h1>
-          <img src={images.chain} alt="chain" className="w-[60px]" />
-          <img src={images.spack} alt="spack" className="w-[60px]" />
+          <img src={images.chain} alt="chain" className="lg:w-[60px]" />
+          <img src={images.spack} alt="spack" className="lg:w-[60px]" />
         </div>
         <p className="text-center font-serif text-sm px-10 leading-6 lg:px-0 lg:max-w-[370px] lg:text-left">
           Participate in getlinked tech Hackathon 2023 stand a chance to win a
