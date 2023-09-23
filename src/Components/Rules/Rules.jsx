@@ -2,7 +2,7 @@ import images from "../../images";
 
 const Rules = () => {
   return (
-    <section className="mx-auto w-full flex flex-col-reverse items-center justify-between relative">
+    <section className="overflow-hidden mx-auto w-full flex flex-col-reverse items-center justify-between relative">
       <div className="text-center p-8 relative">
         <h2 className="font-sans lg:text-3xl font-bold z-10">
           Rules and

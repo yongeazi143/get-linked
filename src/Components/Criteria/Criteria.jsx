@@ -2,7 +2,7 @@ import images from "../../images";
 
 const Criteria = () => {
   return (
-    <section className="flex flex-col items-center justify-between border p-8 relative">
+    <section className="flex flex-col items-center justify-between p-8 relative overflow-hidden">
       <img src={images.judges} alt="Idea" className="w-[400px] mt-10 z-10" />
       <div className=" text-center z-10 pb-10">
         <h2 className="font-sans lg:text-3xl font-bold">
