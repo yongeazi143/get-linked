@@ -2,12 +2,16 @@ import images from "../../images";
 
 const About = () => {
   return (
-    <section className="mx-auto  flex flex-col items-center p-8 justify-between relative">
+    <section className="mx-auto  flex flex-col items-center p-8 lg:p-16 justify-between relative lg:flex-row lg:justify-around bg-background">
       <div className="relative mb-8">
         <img src={images.idea} alt="Idea" className="w-[400px] mt-10" />
-        <img src={images.arrow} alt="arrow" className="mx-auto" />
+        <img
+          src={images.arrow}
+          alt="arrow"
+          className="mx-auto lg:absolute -right-8 -bottom-4"
+        />
       </div>
-      <div className="text-center relative">
+      <div className="text-center relative lg:w-1/2 mt-20">
         <h2 className="font-sans lg:text-3xl font-bold">
           Introduction to getlinked
           <br />
@@ -27,13 +31,13 @@ const About = () => {
         <img
           src={images.star4}
           alt="star4"
-          className="absolute top-8 -right-3 w-4"
+          className="absolute top-8 -right-3 w-4 lg:right-10"
         />
       </div>
       <img
         src={images.star3}
         alt="star3"
-        className="absolute top-48 left-7 w-4"
+        className="absolute top-48 left-7 w-4 lg:top-56 lg:left-10"
       />
     </section>
   );
