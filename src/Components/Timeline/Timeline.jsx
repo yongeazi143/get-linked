@@ -10,14 +10,14 @@ const Timeline = () => (
     <section className="font-serif text-base font-bold flex flex-col items-start justify-around w-full px-5 gap-5 md:items-center lg:hidden">
       <div className="w-full p-5 flex items-center justify-center gap-2 md:w-1/2">
         <div className="flex flex-col items-center justify-center gap-1">
-          <div className="w-[2px] h-20 bg-primary" />
-          <p className="w-8 h-8 text-center bg-primary rounded-full">1</p>
+          <div className="w-[2px] h-28 bg-primary" />
+          <p className="w-6 h-6 text-center bg-primary rounded-full">1</p>
         </div>
-        <div className="flex flex-col gap-1 items-start justify-evenly flex-1">
+        <div className="flex flex-col items-start gap-1 justify-evenly flex-1">
           <p className="text-primary font-serif text-xs font-bold leading-normal">
             Hackathon Announcement
           </p>
-          <p className="font-serif text-xs font-normal leading-5 pb-5">
+          <p className="font-serif text-xs font-normal leading-5 pb-4">
             The getlinked tech hackathon 1.0 is formally announced to the
             general public and teams begin to get ready to register
           </p>
@@ -28,14 +28,14 @@ const Timeline = () => (
       </div>
       <div className="w-full p-5 flex items-center justify-center gap-2  md:w-1/2">
         <div className="flex flex-col items-center justify-center gap-1">
-          <div className="w-[2px] h-20 bg-primary" />
-          <p className="w-8 h-8 text-center bg-primary rounded-full">2</p>
+          <div className="w-[2px] h-28 bg-primary" />
+          <p className="w-6 h-6 text-center bg-primary rounded-full">2</p>
         </div>
         <div className="flex flex-col gap-1 items-start justify-evenly flex-1">
           <p className="text-primary font-serif text-xs font-bold leading-normal">
             Teams Registration begins
           </p>
-          <p className="font-serif text-xs font-normal leading-5 pb-5">
+          <p className="font-serif text-xs font-normal leading-5 pb-4">
             Interested teams can now show their interest in the getlinked tech
             hackathon 1.0 2023 by proceeding to register
           </p>
@@ -46,14 +46,14 @@ const Timeline = () => (
       </div>
       <div className="w-full p-5 flex items-center justify-center gap-2  md:w-1/2">
         <div className="flex flex-col items-center justify-center gap-1">
-          <div className="w-[2px] h-20 bg-primary" />
-          <p className="w-8 h-8 text-center bg-primary rounded-full">3</p>
+          <div className="w-[2px] h-28 bg-primary" />
+          <p className="w-6 h-6 text-center bg-primary rounded-full">3</p>
         </div>
-        <div className="flex flex-col gap-1 items-start justify-evenly flex-1">
+        <div className="flex flex-col gap-1 items-start justify-evenly flex-1 min-h-[160px]">
           <p className="text-primary font-serif text-xs font-bold leading-normal">
             Teams Registration ends
           </p>
-          <p className="font-serif text-xs font-normal leading-5 pb-5">
+          <p className="font-serif text-xs font-normal leading-5 pb-4`">
             Interested Participants are no longer Allowed to register
           </p>
           <p className="font-bold font-serif text-xs leading-normal text-primary">
@@ -63,14 +63,14 @@ const Timeline = () => (
       </div>
       <div className="w-full p-5 flex items-center justify-center gap-2 md:w-1/2">
         <div className="flex flex-col items-center justify-center gap-1">
-          <div className="w-[2px] h-20 bg-primary" />
-          <p className="w-8 h-8 text-center bg-primary rounded-full">4</p>
+          <div className="w-[2px] h-32 bg-primary" />
+          <p className="w-6 h-6 text-center bg-primary rounded-full">4</p>
         </div>
         <div className="flex flex-col gap-1 items-start justify-evenly flex-1">
           <p className="text-primary font-serif text-xs font-bold leading-normal">
             Announcement of the accepted teams and ideas
           </p>
-          <p className="font-serif text-xs font-normal leading-5 pb-5">
+          <p className="font-serif text-xs font-normal leading-5 pb-4">
             All teams whom idea has been accepted into getlinked tech hackathon
             1.0 2023 are formally announced
           </p>
@@ -81,14 +81,14 @@ const Timeline = () => (
       </div>
       <div className="w-full p-5 flex items-center justify-center gap-2  md:w-1/2">
         <div className="flex flex-col items-center justify-center gap-1">
-          <div className="w-[2px] h-20 bg-primary" />
-          <p className="w-8 h-8 text-center bg-primary rounded-full">5</p>
+          <div className="w-[2px] h-28 bg-primary" />
+          <p className="w-6 h-6 text-center bg-primary rounded-full">5</p>
         </div>
         <div className="flex flex-col gap-1 items-start justify-evenly flex-1">
           <p className="text-primary font-serif text-xs font-bold leading-normal">
             Getlinked Hackathon 1.0 Offically Begins
           </p>
-          <p className="font-serif text-xs font-normal leading-5 pb-5">
+          <p className="font-serif text-xs font-normal leading-5 pb-4">
             Accepted teams can now proceed to build their ground breaking skill
             driven solutions
           </p>
@@ -99,14 +99,14 @@ const Timeline = () => (
       </div>
       <div className="w-full p-5 flex items-center justify-center gap-2 md:w-1/2">
         <div className="flex flex-col items-center justify-center gap-1">
-          <div className="w-[2px] h-20 bg-primary" />
-          <p className="w-8 h-8 text-center bg-primary rounded-full">6</p>
+          <div className="w-[2px] h-28 bg-primary" />
+          <p className="w-6 h-6 text-center bg-primary rounded-full">6</p>
         </div>
         <div className="flex flex-col gap-1 items-start justify-evenly flex-1">
           <p className="text-primary font-serif text-xs font-bold leading-normal">
             Demo Day
           </p>
-          <p className="font-serif text-xs font-normal leading-5 pb-5">
+          <p className="font-serif text-xs font-normal leading-5 pb-4">
             Teams get the opportunity to pitch their projects to judges. The
             winner of the hackathon will also be announced on this day
           </p>

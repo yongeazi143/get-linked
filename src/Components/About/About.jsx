@@ -2,8 +2,8 @@ import images from "../../images";
 
 const About = () => {
   return (
-    <section className="mx-auto  flex flex-col items-center p-8 lg:p-16 justify-between relative lg:flex-row lg:justify-around bg-background">
-      <div className="relative mb-8">
+    <section className="mx-auto  flex flex-col items-center p-8 lg:px-16 justify-between relative lg:flex-row lg:justify-around bg-background border-b border-b-[#2C2440]">
+      <div className="relative mb-8 ">
         <img src={images.idea} alt="Idea" className="w-[400px] mt-10" />
         <img
           src={images.arrow}

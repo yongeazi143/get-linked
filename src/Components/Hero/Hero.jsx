@@ -1,7 +1,7 @@
 import images from "../../images";
 const Hero = () => (
   <>
-    <div className="text-center mt-5 w-fit mx-auto flex flex-col items-center justify-center  lg:w-11/12 lg:items-end">
+    <div className="text-center mt-5 w-fit mx-auto flex flex-col items-center justify-center  lg:w-11/12 lg:items-end  ">
       <p
         className="italic font-sans text-base text-white font-bold
         tracking-widest lg:text-3xl"
@@ -9,7 +9,7 @@ const Hero = () => (
         Igniting a Revolution in HR Innovation
       </p>
       <svg
-        className="self-end w-[100px] lg:w-[200px]"
+        className="self-end w-[100px] lg:w-[230px]"
         height="17"
         viewBox="0 0 255 17"
         fill="none"
@@ -69,7 +69,7 @@ const Hero = () => (
         <img
           src={images.hero}
           alt="sparkle light"
-          className="absolute top-0 w-96 mix-blend-hard-light lg:w-[750px] lg:right-0"
+          className="absolute bottom-5 w-96 mix-blend-hard-light lg:w-[600px] lg:right-20"
         />
       </div>
       <img

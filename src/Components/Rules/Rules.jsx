@@ -2,8 +2,8 @@ import images from "../../images";
 
 const Rules = () => {
   return (
-    <section className=" mx-auto w-full flex flex-col-reverse items-center justify-between relative lg:flex-row lg:justify-around lg:p-16">
-      <div className="text-center p-8 my-auto  lg:w-1/2  lg:text-left z-10">
+    <section className=" mx-auto w-full flex flex-col-reverse items-center justify-between relative lg:flex-row lg:justify-around lg:px-16 border-b border-b-[#2C2440]">
+      <div className="text-center px-8 my-auto  lg:w-1/2  lg:text-left z-10">
         <h2 className="font-sans lg:text-3xl font-bold z-10">
           Rules and
           <br />
