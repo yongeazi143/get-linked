@@ -2,7 +2,7 @@ import images from "../../images";
 
 const Criteria = () => {
   return (
-    <section className="flex flex-col items-center justify-between p-8 relative lg:flex-row lg:px-16 lg:justify-center gap-14 border-b border-b-[#2C2440]">
+    <section className="flex flex-col items-center justify-between p-8 relative lg:flex-row lg:px-16 lg:justify-center lg:gap-14 border-b border-b-[#2C2440]">
       <div className="lg:w-1/2 relative">
         <div className="invisible lg:visible w-[100px] h-[100px] btn-color rounded-full absolute top-5 left-[68px]" />
         <img
@@ -83,12 +83,12 @@ const Criteria = () => {
       <img
         src={images.star1}
         alt="lens"
-        className="absolute w-3 top-auto left-96"
+        className="absolute w-3 top-60 lg:top-auto lg:left-96"
       />
       <img
         src={images.purpleLens2}
         alt="lens"
-        className="absolute w-[300px] h-[300px] rounded-full blur-lg mix-blend-hard-light right-0 -bottom-16 lg:w-[500px] lg:h-[500px] lg:rounded-full  lg:-bottom-36"
+        className="absolute w-[300px] h-[300px] rounded-full blur-lg mix-blend-hard-light right-1 -bottom-16 lg:w-[500px] lg:h-[500px] lg:rounded-full  lg:-bottom-36"
       />
       <img
         src={images.star}

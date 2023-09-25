@@ -1,31 +1,46 @@
 import images from "../../images";
 
 const FrequntlyAskedQuestions = () => (
-  <section className="flex flex-col-reverse p-8 items-center justify-between border-b border-b-[#2C2440]">
+  <section className="flex flex-col-reverse lg:flex-row-reverse p-8 lg:p-16 items-center justify-between border-b border-b-[#2c2440] gap-5">
     <div className="relative mt-16">
-      <p className="font-tommy absolute left-14 text-[40px] font-medium text-primary -top-2">
+      <p className="font-tommy absolute left-14 text-[40px] font-medium text-primary -top-2 lg:text-[96px]">
         ?
       </p>
-      <p className="font-tommy absolute -top-5 left-24 text-[64px] font-medium text-primary">
+      <p className="font-tommy absolute -top-5 left-24 text-[64px] font-medium text-primary lg:text-[128px] lg:-top-10 lg:left-48">
         ?
       </p>
-      <p className="font-tommy absolute right-24 text-[40px] font-medium text-primary -top-2">
+      <p className="font-tommy absolute right-24 text-[40px] font-medium text-primary -top-2 lg:text-[96px] lg:right-52">
         ?
       </p>
-      <img src={images.asked} className="w-[400px]" alt="faq" />
+      <img src={images.asked} className="w-[400px]  lg:w-[741px]" alt="faq" />
       <img
         src={images.star}
         alt="star"
-        className="w-3 absolute bottom-0 right-16"
+        className="w-3 absolute bottom-0 right-16 lg:right-40"
+      />
+      <img
+        src={images.star}
+        alt="star"
+        className="w-3 absolute bottom-1/2 left-20"
+      />
+      <img
+        src={images.star3}
+        alt="star"
+        className="w-3 absolute top-0 left-72"
       />
       <img src={images.star1} alt="star" className="w-3 absolute bottom-32" />
       <img
         src={images.star3}
         alt="star"
-        className="w-3 absolute top-20 left-16"
+        className="w-3 absolute top-20 left-16 lg:left-32"
       />
     </div>
-    <div className="text-center">
+    <div className="text-center lg:text-left relative">
+      <img
+        src={images.star4}
+        alt="star"
+        className="invisible lg:visible w-6 absolute -left-8 -top-14"
+      />
       <header>
         <h2 className="font-sans lg:text-3xl font-bold mb-4">
           Frequently Ask

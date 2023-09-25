@@ -2,6 +2,7 @@ import arrow from "../assets/images/arrow.png";
 import asked from "../assets/images/asked.png";
 import stroke from "../assets/images/bent-stroke.svg";
 import bronze from "../assets/images/bronze_medal.png";
+import silver from "../assets/images/silver_medal.png";
 import chain from "../assets/images/chain.png";
 import contact from "../assets/images/contact.png";
 import creative from "../assets/images/creative.png";
@@ -66,6 +67,7 @@ const images = {
   throphy,
   menu,
   spack,
+  silver,
 };
 
 export default images;
