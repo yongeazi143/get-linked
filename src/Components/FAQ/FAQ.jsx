@@ -13,34 +13,18 @@ const FrequntlyAskedQuestions = () => (
         ?
       </p>
       <img src={images.asked} className="w-[400px]  lg:w-[741px]" alt="faq" />
-      <img
-        src={images.star}
-        alt="star"
-        className="w-3 absolute bottom-0 right-16 lg:right-40"
-      />
+      <i className="bx bxs-star text-xs text-white bx-flashing absolute bottom-0 right-16 lg:right-40"></i>
       <img
         src={images.star}
         alt="star"
         className="w-3 absolute bottom-1/2 left-20"
       />
-      <img
-        src={images.star3}
-        alt="star"
-        className="w-3 absolute top-0 left-72"
-      />
-      <img src={images.star1} alt="star" className="w-3 absolute bottom-32" />
-      <img
-        src={images.star3}
-        alt="star"
-        className="w-3 absolute top-20 left-16 lg:left-32"
-      />
+      <i className="bx bxs-star text-xs text-white bx-burst absolute top-0 left-72"></i>
+      <i className="bx bxs-star text-xs text-primary bx-fade-left absolute bottom-32"></i>
+      <i className="bx bxs-star text-xs text-primary bx-spin absolute top-20 left-16 lg:left-32"></i>
     </div>
     <div className="text-center lg:text-left relative">
-      <img
-        src={images.star4}
-        alt="star"
-        className="invisible lg:visible w-6 absolute -left-8 -top-14"
-      />
+      <i className="bx bxs-star text-primary bx-burst invisible lg:visible text-2xl  absolute -left-8 -top-14"></i>
       <header>
         <h2 className="font-sans lg:text-3xl font-bold mb-4">
           Frequently Ask
